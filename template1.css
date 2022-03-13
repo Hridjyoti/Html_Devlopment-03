@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    max-width: 91vw;
+    margin: 37px;
+    float: left;
+    word-wrap: none;
+}
+
+.op {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
