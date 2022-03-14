@@ -6,78 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COVIBERRY</title>
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="utility.css">
+    <style>
+        button {
+            margin-left: 20px;
+            padding: 9px 25px;
+            background-color: rgba(11, 206, 255, 0.747);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+        }
+        button:hover {
+            background-color: rgba(0, 136, 169, 1);
+        }
+    </style>
 </head>
 
-<body>
+<body bgcolor="#B0C7AD">
     <div>
-        <!-- Heading image -->
+        <!-- Heading part -->
         <header>
-            <img src="Vaccination_page-images/Layer 1 copy 3.png">
-        </header>
+            <h4 class="logo" style="letter-spacing:1.2px;">COVIBERRY</h4>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="Home.html" class="cta"><img src="Home_page-images/home.png" width="14px">Home</a></li>
+                    <li><a href="articles.html" class="cta">Articles</a></li>
+                </ul>
+            </nav>
+        </header><br>
+
         <!-- main body -->
         <main>
+            <center>
+                <div>
+                    <hr>
+                    <h1 style="font-family: 'Abril Fatface';text-transform: capitalize;font-size: 50px;">
+                        .Importance Of Vaccination.
+                    </h1>
+                    <hr><br><br><br>
+                    <img src="Vaccination_page-images/Layer 1 copy 3.png" alt="" width="1519">
+                </div>
+            </center>
             <!-- aside Images -->
             <aside>
-                <!-- Vaccination review -->
-                <a href="https://ourworldindata.org/covid-vaccinations?country=OWID_WRL">
-                    <img src="Vaccination_page-images/Layer 1.png" width="450" align="left" height="250"><br>
-                </a>
+
                 <!-- Vaccination cahrt -->
                 <a href="https://ourworldindata.org/covid-vaccinations?country=OWID_WRL">
-                    <img src="Vaccination_page-images/chart.png" align="right">
+                    <img src="Vaccination_page-images/chart.png" align="right" height="395" width="380">
                 </a>
             </aside>
             <!-- Articles on vaccination -->
             <article>
                 <!-- Creation of first heading -->
-                <div>
+                <div><br><br>
                     <h1>
-                        <font face="times new roman" size="10" color=" #5C4033">
+                        <font size="10" color=" #5C4033" style="font-family: 'Ubuntu';">
                             Why is vaccination Important ?
                         </font>
                     </h1>
                     <!-- first paragraph -->
                     <p>
-                        <font face="times new roman" size="4">
-                            The COVID-19 pandemic has disproportionately affected great nations and our personal lives immensely. Vaccination is a means to protect ourselves from this virus and a solution to push our world back to Normal.
+                        <font face="times new roman" size="4" style="font-family: 'Montserrant';">
+                            The COVID-19 pandemic has disproportionately affected great nations and our personal lives
+                            immensely. Vaccination is a means to protect ourselves from this virus and a solution to
+                            push our world back to Normal.
                         </font>
                     </p>
                 </div>
                 <!-- Creation of second heading -->
-                <div>
+                <div><br><br><br>
                     <h1>
-                        <font face="times new roman" color="#5C4033">
+                        <font face="times new roman" color="#5C4033" style="font-family: 'Ubuntu';">
                             INFORMATION
                         </font>
                     </h1>
                     <!-- second paragraph -->
                     <p>
-                        <font face="times new roman" size="4">
-                            The vaccination process comprises of two phases. Phase 1 is where you get your 1st dose of th e vaccine and then, you wait approximately 45 days to follow up into phase 2, where you get yourself th e second dose.
+                        <font face="times new roman" size="4" style="font-family: 'Montserrant';">
+                            The vaccination process comprises of two phases. Phase 1 is where you get your 1st dose of
+                            th e vaccine and then, you wait approximately 45 days to follow up into phase 2, where you
+                            get yourself th e second dose.
                         </font>
                     </p>
-                </div>
-                <!-- lower images -->
-                <div>
-                    <a href="https://ourworldindata.org/covid-vaccinations?country=OWID_WRL">
-                        <img src="Vaccination_page-images/Screenshot 2021-09-28 233008.png" width="440" align="left" height="300"><br>
-                    </a>
-                    <a href="Vaccines.html">
-                        <img src="Vaccination_page-images/Screenshot 2021-09-28 222535.png" align="left" width="280"><br>
-                    </a>
-                </div>
-                <!-- lower body -->
-                <div>
-                    <p><b><font color="#e75480" size="5" face="Cursive">
-                        The government requires,<br>
-                        you to register for<br>
-                        you to get the vaccine ....<br>
-                    </font></b></p>
-                </div>
+                </div><br><br><br>
+                <div><hr>
+                    <center><h2 style="font-family: 'Abril Fatface';">.Click here to check the Availaiblility of vaccine.</h2>
+                    <a href="Vaccines.html"><button>Vaccine</button></a></center>
+                </div><br><hr>
             </article>
-        </main>
-        <footer>
-
+        </main><br><br><br><br><br>
+        <footer class="flex-all-center">
+            <p>Copyright &copy; MyCart.com</p>
         </footer>
     </div>
 </body>
